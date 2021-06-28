@@ -1,0 +1,22 @@
+<div class="d-md-none text-white" *ngIf="menuOpen" style="background-color: #222;">
+    <div class="p-2 border-bottom border-dark">
+        Minhas Tarefas
+    </div>
+    <div class="card-header bg-dark">
+        MINHA CONTA
+    </div>
+</div>
+
+
+<div class="h-100 position-fixed text-white d-none d-md-block d-lg-block padaria-navbar">
+    <div class="row my-3 justify-content-center align-items-center">
+        <img src="/assets/homework-icon.png" style="width: 50px; cursor:pointer;" alt="" [routerLink]="'/'">
+    </div>
+    <div class="card-header bg-dark">
+        MEU PAINEL
+    </div>
+    <ul style="cursor:pointer;" class="list-group list-group-flush">
+        <li [routerLink]="'/tarefas'" class="list-group-item bg-transparent">Adicionar Tarefa</li>
+        <li [routerLink]="'/dashboard'" class="list-group-item bg-transparent">Minhas Tarefas</li>
+    </ul>
+</div>

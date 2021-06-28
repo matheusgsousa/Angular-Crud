@@ -1,0 +1,66 @@
+.card button {
+  margin: 15px;
+}
+
+.card-title {
+  text-transform: uppercase;
+}
+.card {
+  box-shadow: 1px 5px 30px rgb(195, 195, 195);
+  margin-left: 50px;
+}
+input::-webkit-inner-spin-button,
+input::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+}
+.selectm {
+  width: 100px;
+  height: 30px;
+  margin-left: 67px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+.selectb {
+  margin-left: 167px;
+  width: 100px;
+  height: 30px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  font-size: 18px;
+}
+#lupa {
+  margin-top: -5px;
+  margin-left: 20px;
+}
+#borracha {
+  margin-top: -5px;
+  margin-left: 10px;
+}
+#seta {
+  margin-top: -5px;
+  margin-left: 20px;
+}
+.action {
+  cursor: pointer;
+  text-align: center;
+  font-size: 20px;
+}
+.cursor-pointer {
+  cursor: pointer;
+}
+.txt_center {
+  text-align: center;
+}
+.bv-background {
+  background: linear-gradient(
+    148deg,
+    rgba(0, 215, 255, 1) 0%,
+    rgba(0, 121, 255, 1) 100%
+  );
+}
+.bv-icon {
+  filter: drop-shadow(5px 5px 7px #00000096);
+}
+.text-bv {
+  font-weight: lighter;
+  font-size: 22px;
+}
